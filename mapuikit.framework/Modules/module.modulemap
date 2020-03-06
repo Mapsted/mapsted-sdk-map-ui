@@ -1,0 +1,11 @@
+framework module mapuikit {
+  umbrella header "mapuikit.h"
+
+  export *
+  module * { export * }
+}
+
+module mapuikit.Swift {
+    header "mapuikit-Swift.h"
+    requires objc
+}
