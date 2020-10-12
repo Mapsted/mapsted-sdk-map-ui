@@ -253,6 +253,9 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
+
+
+
 @class UISearchBar;
 
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <UISearchBarDelegate>
@@ -261,6 +264,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
 - (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
 @end
+
 
 
 
