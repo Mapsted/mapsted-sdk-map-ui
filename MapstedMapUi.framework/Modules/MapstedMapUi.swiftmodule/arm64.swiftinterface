@@ -123,6 +123,14 @@ extension MapstedMapUiViewController {
   public func updateTag(tag: MapstedMapUi.Tag)
   @objc deinit
 }
+public enum Translations : Swift.String {
+  case eSelectedLocation
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers public class PropertyListViewController : UIKit.UIViewController {
   public static func className() -> Swift.String
   @objc override dynamic public func viewDidLoad()
@@ -229,6 +237,9 @@ extension Tag {
 extension MapstedMapUi.MapState : Swift.Equatable {}
 extension MapstedMapUi.MapState : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.RawRepresentable {}
+extension MapstedMapUi.Translations : Swift.Equatable {}
+extension MapstedMapUi.Translations : Swift.Hashable {}
+extension MapstedMapUi.Translations : Swift.RawRepresentable {}
 extension MapstedMapUi.RoutingState : Swift.Equatable {}
 extension MapstedMapUi.RoutingState : Swift.Hashable {}
 extension MapstedMapUi.RoutingState : Swift.RawRepresentable {}

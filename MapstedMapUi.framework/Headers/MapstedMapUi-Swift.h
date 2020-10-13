@@ -256,6 +256,7 @@ SWIFT_CLASS("_TtC12MapstedMapUi26MapstedMapUiViewController")
 
 
 
+
 @class UISearchBar;
 
 @interface MapstedMapUiViewController (SWIFT_EXTENSION(MapstedMapUi)) <UISearchBarDelegate>
