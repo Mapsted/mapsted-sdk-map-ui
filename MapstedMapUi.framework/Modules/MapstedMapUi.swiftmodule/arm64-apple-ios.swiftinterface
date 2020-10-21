@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedMapUi
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MapstedMapUi
 import AVFoundation
 import CoreData
 import Foundation
@@ -48,8 +48,7 @@ public protocol MNFeedbackDelegate {
   func sendFeedback()
 }
 @objc @_hasMissingDesignatedInitializers final public class MapstedMapUiViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
-  #warning("Note: Set isSimulatingRoute to false before release")
-  public static let shared: UIKit.UIViewController?
+  public static var shared: UIKit.UIViewController?
   public static func className() -> Swift.String
   final public func setMapStateDelegate(mapStateDelegate: MapstedMapUi.MNMapStateDelegate)
   final public func setFeedDelegate(feedDelegate: MapstedMapUi.MNFeedDelegate)
@@ -113,7 +112,7 @@ extension MapstedMapUiViewController {
   final public func addTags(tags: [__ObjC.MNTag])
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CoreDataHelper : ObjectiveC.NSObject {
-  public static let shared: MapstedMapUi.CoreDataHelper
+  public static var shared: MapstedMapUi.CoreDataHelper
   public func allTags(propertyId: Swift.Int) -> [__ObjC.MNTag]
   public func getTags(propertyId: Swift.Int) -> [MapstedMapUi.Tag]?
   public func searchTags(propertyId: Swift.Int, search text: Swift.String) -> [MapstedMapUi.Tag]?
@@ -166,9 +165,9 @@ extension PropertyListViewController : UIKit.UITableViewDelegate {
   public func addControllerAnimated(controller: UIKit.UIViewController, yOffset: CoreGraphics.CGFloat, isNew: Swift.Bool)
   public func activeController() -> UIKit.UIViewController?
   public func controllerOnStack(className: Swift.String) -> UIKit.UIViewController?
+  @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
 }
 public enum RoutingState : Swift.String {
   case None
@@ -200,46 +199,37 @@ public enum RoutingState : Swift.String {
   }
 }
 @_inheritsConvenienceInitializers @objc(Tag) public class Tag : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
 }
 extension Tag {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<MapstedMapUi.Tag>
   @objc @NSManaged dynamic public var buildingId: Swift.Int32 {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var floorId: Swift.Int32 {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var mercatorX: Swift.Double {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var mercatorY: Swift.Double {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var name: Swift.String? {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var propertyId: Swift.Int32 {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @NSManaged dynamic public var timestamp: Swift.Double {
     @objc get
-    @objc set
+    @objc set(value)
   }
 }
-extension MapstedMapUi.MapState : Swift.Equatable {}
-extension MapstedMapUi.MapState : Swift.Hashable {}
-extension MapstedMapUi.MapState : Swift.RawRepresentable {}
-extension MapstedMapUi.Translations : Swift.Equatable {}
-extension MapstedMapUi.Translations : Swift.Hashable {}
-extension MapstedMapUi.Translations : Swift.RawRepresentable {}
-extension MapstedMapUi.RoutingState : Swift.Equatable {}
-extension MapstedMapUi.RoutingState : Swift.Hashable {}
-extension MapstedMapUi.RoutingState : Swift.RawRepresentable {}
