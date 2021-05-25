@@ -2,11 +2,14 @@
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MapstedMapUi
 import AVFoundation
+import AudioToolbox
 import CoreData
 import Foundation
+import LocationMarketing
 import MapstedCore
 import MapstedMap
 import MessageUI
+import SafariServices
 import Swift
 import UIKit
 import WebKit
@@ -57,12 +60,22 @@ public enum RoutingRequestType {
   }
   public func hash(into hasher: inout Swift.Hasher)
 }
+public enum RouteInterruptionMode {
+  case GiveChoices
+  case ClearAndResart
+  public static func == (a: MapstedMapUi.RouteInterruptionMode, b: MapstedMapUi.RouteInterruptionMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
 @objc @_hasMissingDesignatedInitializers final public class MapstedMapUiViewController : UIKit.UIViewController, UIKit.UIGestureRecognizerDelegate {
   #warning("Note: Set isSimulatingRoute to false before release")
   public static let shared: UIKit.UIViewController?
   public static func className() -> Swift.String
   final public func setMapStateDelegate(mapStateDelegate: MapstedMapUi.MNMapStateDelegate)
   final public func setFeedDelegate(feedDelegate: MapstedMapUi.MNFeedDelegate)
+  final public func setMarketingDelegate(marketingDelegate: LocationMarketing.LocationMarketingCreativeDelegate)
   final public func setShareLocationDelegate(shareLocationDelegate: MapstedMapUi.MNShareLocationDelegate)
   final public func setSendFeedbackDelegate(feedDelegate: MapstedMapUi.MNFeedbackDelegate)
   @objc override final public func viewDidLoad()
@@ -84,8 +97,7 @@ public enum RoutingRequestType {
   final public func displayOnMap(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int)
   final public func connectWifiBluetoothBannerText() -> Swift.String?
   final public func displayPropertyOnMap(propertyId: Swift.Int, completion: (() -> ())? = nil)
-  final public func displayOnMap(buildingId: Swift.Int, propertyId: Swift.Int, searchEntityId: Swift.Int)
-  final public func displayOnMap(buildingId: Swift.Int, propertyId: Swift.Int, searchEntityId: Swift.Int, entityId: Swift.Int)
+  final public func displayOnMap(buildingId: Swift.Int, propertyId: Swift.Int, searchEntityId: Swift.Int, showInfo: Swift.Bool = false)
   final public func routeTo(buildingId: Swift.Int, propertyId: Swift.Int, entityId: Swift.Int, showDirections: Swift.Bool = true)
   final public func clearAllTags()
   final public func deleteAllTags()
@@ -95,7 +107,25 @@ public enum RoutingRequestType {
   final public func deleteFriendLocations(friends: [MapstedCore.MNShareLocationItem])
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
-extension MapstedMapUiViewController : MapstedMap.MNMapListenerDelegate, MapstedMap.MNMapVectorTileEventListenerDelegate {
+extension MapstedMapUiViewController : UIKit.UICollectionViewDelegate {
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, didSelectItemAt indexPath: Foundation.IndexPath)
+}
+extension MapstedMapUiViewController : UIKit.UICollectionViewDataSource {
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+extension MapstedMapUiViewController : UIKit.UICollectionViewDelegateFlowLayout {
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGSize
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc final public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Swift.Int) -> CoreGraphics.CGFloat
+}
+extension MapstedMapUiViewController : MapstedMap.MNMapVectorTileEventListenerDelegate {
+  final public func onTileBalloonClicked(searchEntity: __ObjC.MNSearchEntity)
+  final public func onTileMarkerTapped(markerName: Swift.String, markerType: Swift.String)
+  final public func onTilePolygonTapped(polygon: __ObjC.MNMapPolygon, tapType: MapstedMap.MapstedMapApi.TapType, tapPos: __ObjC.MNMercator)
+}
+extension MapstedMapUiViewController : MapstedMap.MNMapListenerDelegate {
   final public func onMapIdle()
   final public func outsideBuildingTapped(tapPos: __ObjC.MNMercator, tapType: MapstedMap.MapstedMapApi.TapType)
   final public func onMapStable()
@@ -140,11 +170,28 @@ extension UITableView {
 }
 public enum Translations : Swift.String {
   case eSelectedLocation
+  case eSelectLocation
+  case eOpen
+  case eCloses
+  case eClosed
+  case eOpens
+  case eFloorChangeConfirm
+  case eResultsFor
   public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
   public var rawValue: Swift.String {
     get
   }
+}
+public enum CurrentViewHeight {
+  case minimal
+  case full
+  case other
+  public static func == (a: MapstedMapUi.CurrentViewHeight, b: MapstedMapUi.CurrentViewHeight) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers public class PropertyListViewController : UIKit.UIViewController {
   public static func className() -> Swift.String
@@ -185,6 +232,9 @@ extension PropertyListViewController : UIKit.UITableViewDelegate {
   @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+extension UIImage {
+  convenience public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
+}
 public enum RoutingState : Swift.String {
   case None
   case AboutToMakeRouteRequest
@@ -214,6 +264,34 @@ public enum RoutingState : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol MapstedSearchDelegate {
+  func startSearch()
+  func stopSearch()
+}
+public enum SearchStyle {
+  case TitleAndButton
+  case SearchBoxAndButton
+  case ButtonOnly
+  public static func == (a: MapstedMapUi.SearchStyle, b: MapstedMapUi.SearchStyle) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MapstedSearchView : UIKit.UIView {
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  public func setSearchBarDelegate(delegate: UIKit.UISearchBarDelegate)
+  public func setFontSize(to newSize: CoreGraphics.CGFloat)
+  public func setSearchButtonTint(to newColor: UIKit.UIColor)
+  public func setSearchStyle(to searchStyle: MapstedMapUi.SearchStyle)
+  public func setTitle(to text: Swift.String?)
+  public func setMapstedSearchDelegate(delegate: MapstedMapUi.MapstedSearchDelegate)
+  public func setSearchPlaceholder(toString placeholder: Swift.String)
+  public func setBackgroundColor(to color: UIKit.UIColor? = nil, alpha: CoreGraphics.CGFloat = 1.0)
+  public func hideSearch()
+  public func showSearch()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(Tag) public class Tag : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
@@ -255,9 +333,15 @@ extension MapstedMapUi.MapState : Swift.Hashable {}
 extension MapstedMapUi.MapState : Swift.RawRepresentable {}
 extension MapstedMapUi.RoutingRequestType : Swift.Equatable {}
 extension MapstedMapUi.RoutingRequestType : Swift.Hashable {}
+extension MapstedMapUi.RouteInterruptionMode : Swift.Equatable {}
+extension MapstedMapUi.RouteInterruptionMode : Swift.Hashable {}
 extension MapstedMapUi.Translations : Swift.Equatable {}
 extension MapstedMapUi.Translations : Swift.Hashable {}
 extension MapstedMapUi.Translations : Swift.RawRepresentable {}
+extension MapstedMapUi.CurrentViewHeight : Swift.Equatable {}
+extension MapstedMapUi.CurrentViewHeight : Swift.Hashable {}
 extension MapstedMapUi.RoutingState : Swift.Equatable {}
 extension MapstedMapUi.RoutingState : Swift.Hashable {}
 extension MapstedMapUi.RoutingState : Swift.RawRepresentable {}
+extension MapstedMapUi.SearchStyle : Swift.Equatable {}
+extension MapstedMapUi.SearchStyle : Swift.Hashable {}
