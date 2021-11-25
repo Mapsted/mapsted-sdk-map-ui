@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NEGRrwg+vp53SADkO+8NTrbMypU=
+		yFFDoPlRGgPmJOG4P+nFJbNpRKM=
 		</data>
 		<key>ExploreTableViewCell.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<data>
-		30znszEB9SgR4hj7gf/YkwTpiMM=
+		5jUlqDByjjE6Qfwc8YknhDgpEN8=
 		</data>
 		<key>Headers/MapstedComponentsUI.h</key>
 		<data>
@@ -24,29 +24,49 @@
 		<data>
 		meM85lrF/zm1qCqNsbRLaX77RnE=
 		</data>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/objects-12.3+.nib</key>
+		<data>
+		xrh4nOXUhRI+fZ9UpzMcQOeXzcI=
+		</data>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/runtime.nib</key>
+		<data>
+		xrh4nOXUhRI+fZ9UpzMcQOeXzcI=
+		</data>
+		<key>Misc.storyboardc/Info.plist</key>
+		<data>
+		pHeG+6SLxtF97vLdeWcKj/ck4pc=
+		</data>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/objects-12.3+.nib</key>
+		<data>
+		gIbrweco4GTyvGil0KVbfkRauas=
+		</data>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/runtime.nib</key>
+		<data>
+		YmOewaRJaJv3S3fakah7XaF2N/0=
+		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		LOV1DZeAJJGAHcr6BLMexza4wjQ=
+		0jmYy8IyRE8HfA4Xg2DRl4GZ1oY=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		LOV1DZeAJJGAHcr6BLMexza4wjQ=
+		0jmYy8IyRE8HfA4Xg2DRl4GZ1oY=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		5jJLQg/Jvb5pd2J+U8YOqWSNzIA=
+		MqEbLq0ePIXaPxgc8yeHDMZ8kLk=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1MUOgOr8oYhiuVmAuxgH3StfajE=
+		hLr3fRPQZY1pYfmyNtIRfZ0GMFc=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		5jJLQg/Jvb5pd2J+U8YOqWSNzIA=
+		MqEbLq0ePIXaPxgc8yeHDMZ8kLk=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1MUOgOr8oYhiuVmAuxgH3StfajE=
+		hLr3fRPQZY1pYfmyNtIRfZ0GMFc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			isifgGKXfsCuWq7dJ1qJm8Wo3ZsySp4gCO3bHU9qKR0=
+			2jcG2Rb+LRLta/BMcYT1uVs/ehqh/ZK03yMoil8/zms=
 			</data>
 		</dict>
 		<key>ExploreTableViewCell.nib</key>
@@ -85,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9y1Rjn7sJeWWhA1VGPeuU2FDtdWOXoWmdv/5D9sR3sY=
+			50ifdeoxJttT0y1xgy3xru3iRe4iwQfFY/Ady1XcsFA=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI.h</key>
@@ -95,46 +115,81 @@
 			LHNWL1nTCaqUYDMO2cGub3uy8ejd52AGEsQyR71eKHM=
 			</data>
 		</dict>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eqDkeJzPo+aKUh7RkpnO78KctfIjfLvh20bQ/9faIr4=
+			</data>
+		</dict>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eqDkeJzPo+aKUh7RkpnO78KctfIjfLvh20bQ/9faIr4=
+			</data>
+		</dict>
+		<key>Misc.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WLiXdN8vAiqXikeXzrIDiNWNTux2+XQaZKyxqhC2N30=
+			</data>
+		</dict>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P/cilJsBpx05kMuGh6x3kV1j8oyjXqOZYbvLvgNgAc4=
+			</data>
+		</dict>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jXpnJdYQNWFwshbNM9ORiq35kl7/KJ4iAcb4xbSMlnI=
+			</data>
+		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAoFzVYaP+EsjG5ZhMYgs4kPkPQhG1T0gi3UibIi4Uk=
+			YaJM+YgUGEoDrOQcVcDtSKC4iKXEEnygY4s9iZQMed8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAoFzVYaP+EsjG5ZhMYgs4kPkPQhG1T0gi3UibIi4Uk=
+			YaJM+YgUGEoDrOQcVcDtSKC4iKXEEnygY4s9iZQMed8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HVANXBTgj5YaGfUhEDQDauk0DxJ1B41q1Oa2/RtlqtY=
+			HaRWScQBy/N5qGBAf/l4CXkAB7B354wqo3ExwVKmCGM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			74X7oB4iHkLrWDhcIcnUNnrLLZ2HlzRYUEZ72yGYuNk=
+			t5t9qKQrhdGV/JGBvybmxX8vza/QaQgrIamDyEvsvvE=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HVANXBTgj5YaGfUhEDQDauk0DxJ1B41q1Oa2/RtlqtY=
+			HaRWScQBy/N5qGBAf/l4CXkAB7B354wqo3ExwVKmCGM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			74X7oB4iHkLrWDhcIcnUNnrLLZ2HlzRYUEZ72yGYuNk=
+			t5t9qKQrhdGV/JGBvybmxX8vza/QaQgrIamDyEvsvvE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -208,6 +208,44 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class NSBundle;
+@class NSCoder;
+
+/// View controller to show list of categories in a horizontal scrollable list.
+SWIFT_CLASS("_TtC19MapstedComponentsUI30CategoryCarouselViewController")
+@interface CategoryCarouselViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didMoveToParentViewController:(UIViewController * _Nullable)parent;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class NSIndexPath;
+
+@interface CategoryCarouselViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDelegate>
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class NSNumber;
+@class UICollectionViewCell;
+
+@interface CategoryCarouselViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UICollectionViewLayout;
+
+@interface CategoryCarouselViewController (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (UIEdgeInsets)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout insetForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 SWIFT_CLASS("_TtC19MapstedComponentsUI21ExploreResultsManager")
 @interface ExploreResultsManager : NSObject
@@ -217,8 +255,6 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI21ExploreResultsManager")
 
 
 @class UITableView;
-@class NSIndexPath;
-@class NSNumber;
 
 @interface ExploreResultsManager (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDelegate>
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -248,7 +284,6 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI20SearchResultsManager")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
-@class NSString;
 
 @interface SearchResultsManager (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
@@ -257,7 +292,6 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI20SearchResultsManager")
 - (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSCoder;
 
 SWIFT_CLASS("_TtC19MapstedComponentsUI17TagsTableViewCell")
 @interface TagsTableViewCell : UITableViewCell
@@ -266,13 +300,11 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI17TagsTableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 
 @interface TagsTableViewCell (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDelegate>
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
-@class UICollectionViewCell;
 
 @interface TagsTableViewCell (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
@@ -280,7 +312,6 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI17TagsTableViewCell")
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UICollectionViewLayout;
 
 @interface TagsTableViewCell (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDelegateFlowLayout>
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -288,6 +319,7 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI17TagsTableViewCell")
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
