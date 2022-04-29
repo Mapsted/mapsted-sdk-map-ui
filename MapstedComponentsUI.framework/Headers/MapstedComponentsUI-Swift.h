@@ -216,8 +216,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
-@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC19MapstedComponentsUI21ArbitraryLocationCell")
+@interface ArbitraryLocationCell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
 
 /// View controller to show list of categories in a horizontal scrollable list.
 SWIFT_CLASS("_TtC19MapstedComponentsUI30CategoryCarouselViewController")
@@ -266,7 +275,6 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI21ExploreResultsManager")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UITableViewCell;
 
 @interface ExploreResultsManager (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
