@@ -196,6 +196,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreGraphics;
+@import Foundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -285,6 +286,55 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI21ExploreResultsManager")
 @end
 
 
+/// This collection view is a container that displays and manages keywords
+SWIFT_CLASS("_TtC19MapstedComponentsUI16KWCollectionView")
+@interface KWCollectionView : UIViewController
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface KWCollectionView (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDelegate>
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView willDisplayCell:(UICollectionViewCell * _Nonnull)cell forItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@interface KWCollectionView (SWIFT_EXTENSION(MapstedComponentsUI)) <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+/// This text field can be used to create new tags (send them to a receiver) or filter tags in a (sender) collection of tags
+SWIFT_CLASS("_TtC19MapstedComponentsUI11KWTextField")
+@interface KWTextField : UITextField
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionViewLayoutAttributes;
+
+SWIFT_CLASS("_TtC19MapstedComponentsUI17KeywordCellLayout")
+@interface KeywordCellLayout : UICollectionViewLayout
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)prepareLayout;
+- (UICollectionViewLayoutAttributes * _Nullable)layoutAttributesForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<UICollectionViewLayoutAttributes *> * _Nullable)layoutAttributesForElementsInRect:(CGRect)rect SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic, readonly) CGSize collectionViewContentSize;
+@end
+
+
+
+
+
 SWIFT_CLASS("_TtC19MapstedComponentsUI20SearchResultsManager")
 @interface SearchResultsManager : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -333,6 +383,8 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI17TagsTableViewCell")
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 

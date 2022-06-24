@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		orFSqL96nC4aLhAi0Nf8WJGlmQc=
+		itpc4sXw+LFcJl/0hp9aGl+6SD4=
 		</data>
 		<key>ExploreTableViewCell.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<data>
-		eej/us0Paug5ZlrXjcgcL+7uS7w=
+		XoD4pt6tW8gG8/8DldBcIOuFmF4=
 		</data>
 		<key>Headers/MapstedComponentsUI.h</key>
 		<data>
@@ -26,13 +26,9 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jK6w9LS8HX2A8RCoWCuJ8VbhxuE=
+		V8P37m8OXyMf/EwA99bSDbUms/g=
 		</data>
-		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/objects-12.3+.nib</key>
-		<data>
-		xrh4nOXUhRI+fZ9UpzMcQOeXzcI=
-		</data>
-		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/runtime.nib</key>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<data>
 		xrh4nOXUhRI+fZ9UpzMcQOeXzcI=
 		</data>
@@ -40,25 +36,21 @@
 		<data>
 		pHeG+6SLxtF97vLdeWcKj/ck4pc=
 		</data>
-		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/objects-12.3+.nib</key>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib</key>
 		<data>
 		Zsn033GkBiFGq0H3lPPBiJjIsWQ=
 		</data>
-		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/runtime.nib</key>
-		<data>
-		OQ3ujQabIDYfq2ZlwvgufRShKdI=
-		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		zWX1viOhw9+/Ey/xLE6U/dCKkUk=
+		75rgSEonAKnaaqOEiSqIu+TyKdQ=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ECOiIcWTBI6dq3tKIf2BYagjMMM=
+		E2G4w1HCPEZcET0sPLAMx7LV9M0=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BLAmVuHzU3teZha25r+I65qhOMs=
+		1tkeEQmAvtn+84GMcE5SAaPLTEM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AMzADC3QQMVNoNHIDTCJ7EamzGD8xpgkY0v30TLfxrw=
+			hawoCX0BrFRsw+7uIvPXf7tJ+R+abRVkF27v9oVY8UY=
 			</data>
 		</dict>
 		<key>ExploreTableViewCell.nib</key>
@@ -104,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0L0HyvEc4Om7Z4OaA1bJkj6LW7CvHhhHs/uzdbAXVS4=
+			jQaJ2Dn32gOV9KCwr1bRh+di644dQplffCgOA1MGRYI=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI.h</key>
@@ -114,14 +106,7 @@
 			LHNWL1nTCaqUYDMO2cGub3uy8ejd52AGEsQyR71eKHM=
 			</data>
 		</dict>
-		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eqDkeJzPo+aKUh7RkpnO78KctfIjfLvh20bQ/9faIr4=
-			</data>
-		</dict>
-		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib/runtime.nib</key>
+		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -135,39 +120,32 @@
 			WLiXdN8vAiqXikeXzrIDiNWNTux2+XQaZKyxqhC2N30=
 			</data>
 		</dict>
-		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/objects-12.3+.nib</key>
+		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			dYW5XpEAO68srMi+ORAcSEmo1YQgV1/E6BOvThsNsWE=
 			</data>
 		</dict>
-		<key>Misc.storyboardc/Pgl-4W-QAb-view-ZSU-hD-fzD.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Raa4cv04hpIucyPbtI4DQaKMv/EojtXKsunhjyN4SwE=
-			</data>
-		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qh7OKm6w15C2gL9AV+vJGw8FKegXaWcMX7g1C7/zuQM=
+			J40qScPjDpBo9Dfjl3kOu2+jDZ6/BYKuTaJeBnkhLKs=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VaWahudaOyDw7JQF7qJPlfYJ3l7flrlpxO0i/it5/sE=
+			hr4WA+TmA1sBybvwG3YMYfTAAKzvM0CUC+6j+UpFIx8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ndg4EepL+buQnr85aLhdzGsohzCH5LLOfl1aXg4UZ4E=
+			XFu7Er53bW4Yz7nmrKXvDx2AokdVQoidOVFszm+2uOM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
