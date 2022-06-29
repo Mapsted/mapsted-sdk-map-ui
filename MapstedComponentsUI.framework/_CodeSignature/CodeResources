@@ -10,7 +10,39 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		itpc4sXw+LFcJl/0hp9aGl+6SD4=
+		sOy1b4nJyqJtVOPNbZVC5QAAkdk=
+		</data>
+		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
+		<data>
+		iRAOhS6+0pn6M9enqUS4PSvtAUU=
+		</data>
+		<key>EntityChooser.storyboardc/EntityChooserContainer.nib</key>
+		<data>
+		x3O1RT7BDQm8Pum9m9dhLdCMY9M=
+		</data>
+		<key>EntityChooser.storyboardc/Info.plist</key>
+		<data>
+		NylRxeBWWL1usFJKCtYLvq91flw=
+		</data>
+		<key>EntityChooser.storyboardc/UIViewController-gGn-43-WfH.nib</key>
+		<data>
+		4PAbwUPydtqNBelpH2L9+ujgyxw=
+		</data>
+		<key>EntityChooser.storyboardc/Vhc-u8-kVh-view-Li5-y4-rFN.nib</key>
+		<data>
+		ql5ypfXg2rU+LxsxVEaey9JAZpM=
+		</data>
+		<key>EntityChooser.storyboardc/Y6W-OH-hqX-view-8oy-Dj-F5c.nib</key>
+		<data>
+		h+iY2xiHvbdOYIkkSTxj5JjDXao=
+		</data>
+		<key>EntityChooser.storyboardc/gGn-43-WfH-view-weZ-UT-AFD.nib</key>
+		<data>
+		tGNjZIGBglIvnjKnjKHtriav4Dk=
+		</data>
+		<key>EntityChooserHeaderView.nib</key>
+		<data>
+		UY6jDZ2zUjFAI0BVFWLx8W31MIs=
 		</data>
 		<key>ExploreTableViewCell.nib</key>
 		<data>
@@ -18,7 +50,7 @@
 		</data>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<data>
-		XoD4pt6tW8gG8/8DldBcIOuFmF4=
+		lc+rviIkyFaCI7K8ucSSXbYaMMs=
 		</data>
 		<key>Headers/MapstedComponentsUI.h</key>
 		<data>
@@ -26,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gtlT/0KUXnV1ycVOufoakY0SYCc=
+		C68TfoYTwa0SMGUiqDHaAe1sVls=
 		</data>
 		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<data>
@@ -42,7 +74,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		75rgSEonAKnaaqOEiSqIu+TyKdQ=
+		LFM20lHvAU8bFA0ePLIDmdZSzsc=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +82,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1tkeEQmAvtn+84GMcE5SAaPLTEM=
+		9orfhcWqQ2ZXrwoIWuhwCZ2JfQo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +91,30 @@
 		<key>SearchResultTableViewCell.nib</key>
 		<data>
 		a9/jcRhI1WQ3EH0M+qYChVP+Nqo=
+		</data>
+		<key>SearchableChooser.storyboardc/EntityChooser.nib</key>
+		<data>
+		pG2QKknXkY1JYuVgkuMxxnoyNZw=
+		</data>
+		<key>SearchableChooser.storyboardc/Info.plist</key>
+		<data>
+		Jg50rx0BCNMWlxR7l5MVD4tK560=
+		</data>
+		<key>SearchableChooser.storyboardc/SearchableChooser.nib</key>
+		<data>
+		+Y6EvttZ7r/53IFEDirYZzHF6uY=
+		</data>
+		<key>SearchableChooser.storyboardc/UINavigationController-WCs-IX-faF.nib</key>
+		<data>
+		0pbDwaUm2zj35Yy0CljEZhkeJ2E=
+		</data>
+		<key>SearchableChooser.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		e3gztV+SZ/KG6gvVorwHlIrTda8=
+		</data>
+		<key>SearchableChooser.storyboardc/jxw-qw-BqZ-view-LaA-Zx-S07.nib</key>
+		<data>
+		3abc3ryWpNw9ZTzO4+P9RVUDTQQ=
 		</data>
 		<key>TagCell.nib</key>
 		<data>
@@ -82,7 +138,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hawoCX0BrFRsw+7uIvPXf7tJ+R+abRVkF27v9oVY8UY=
+			Ay6DhMO47kx8TyXu2sYuQYDZ2x6dokpDFncBQNZc5YU=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ru2QHJKl9Advzqg7+E0bqxwFvxJniJACLbiirt+BtwM=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/EntityChooserContainer.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nAIt9mDIBNFpFTy3oRIY8B8b/rFSSeFAQpZfv5vMGrI=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PNXiGs/LInuXwIpM/pg8yXS1WqKrCcnpV61xY+CYSXw=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/UIViewController-gGn-43-WfH.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			10A0XrVtFIEso/NSm97N0PoDugguI4XjSerVK7pj7+0=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/Vhc-u8-kVh-view-Li5-y4-rFN.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C5S/CmIb2Rp4dOhILHijehjwZIVkOqdCrqUMMqmUD+8=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/Y6W-OH-hqX-view-8oy-Dj-F5c.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cRhwoFE5NOdUZ67Olfv9gWovWgr4sDifEGImR2S7tJw=
+			</data>
+		</dict>
+		<key>EntityChooser.storyboardc/gGn-43-WfH-view-weZ-UT-AFD.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o/RnIpCfNZy9Vb15V3Pos+FCkyHLCpe0e/3/I3GRnmo=
+			</data>
+		</dict>
+		<key>EntityChooserHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xVlxL/Oc3fRvkfw0yzxN+EkBN8Hycu4oGVPQxatonk0=
 			</data>
 		</dict>
 		<key>ExploreTableViewCell.nib</key>
@@ -96,7 +208,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQaJ2Dn32gOV9KCwr1bRh+di644dQplffCgOA1MGRYI=
+			N0QQRMfMT+uYJRO7C7qVjR7VlWMC7cE6EsP6wLtE+qo=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI.h</key>
@@ -131,7 +243,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J40qScPjDpBo9Dfjl3kOu2+jDZ6/BYKuTaJeBnkhLKs=
+			GgzGSbz5mKjAKPBElcH2IqJLjrwAjhDODrunKs+fgnM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -145,7 +257,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFu7Er53bW4Yz7nmrKXvDx2AokdVQoidOVFszm+2uOM=
+			I9jHIjO9wJaUNSqjHaTXsnWYp3ngTvXPTXlIRPbLlBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -160,6 +272,48 @@
 			<key>hash2</key>
 			<data>
 			likDmVjHsnQX+tinTN/mcfqcZcyaSBqJUHOQ0vuY350=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/EntityChooser.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z57RrNuWRkXPjP42/2YflS7AwbWrcnFrUEOu4FbDxbA=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sza2whdhtzh4pj3EHIdLQd/J5nzRxZRUYVap0GROiXw=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/SearchableChooser.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DLMu34efot9FfyN1/z7WKAJf2ssut2sLEL/uWMwo6+M=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/UINavigationController-WCs-IX-faF.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w+MAvWLGx04DzyvLhmrbSeeRXrs5xGi5htZieU6v5kQ=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CURnlcqeCBra53S3IsEq2cQx4aXtHiQbUKjhsLxcVys=
+			</data>
+		</dict>
+		<key>SearchableChooser.storyboardc/jxw-qw-BqZ-view-LaA-Zx-S07.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0Lt4OgD4rHd11wTkBA81zEKmLfAJlcPGq0BTaRdwth8=
 			</data>
 		</dict>
 		<key>TagCell.nib</key>
