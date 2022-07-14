@@ -264,12 +264,11 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
+
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
 - (void)setPositionVisibilityWithVisible:(BOOL)visible;
 @end
-
-
-
 
 
 @class MNPosition;
@@ -280,10 +279,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
-
 @class UICollectionView;
 @class NSIndexPath;
 
@@ -291,6 +286,11 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
+
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
 
 
 
