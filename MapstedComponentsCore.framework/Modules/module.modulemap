@@ -6,6 +6,6 @@ framework module MapstedComponentsCore {
 }
 
 module MapstedComponentsCore.Swift {
-    header "MapstedComponentsCore-Swift.h"
-    requires objc
+  header "MapstedComponentsCore-Swift.h"
+  requires objc
 }
