@@ -421,12 +421,14 @@ SWIFT_CLASS("_TtC19MapstedComponentsUI20SearchResultsManager")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
+@class UIScrollView;
 
 @interface SearchResultsManager (SWIFT_EXTENSION(MapstedComponentsUI)) <UITableViewDataSource>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
 @class UIStoryboardSegue;
