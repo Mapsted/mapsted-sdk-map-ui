@@ -236,6 +236,7 @@ using UInt = size_t;
 @import MapstedCore;
 @import ObjectiveC;
 @import UIKit;
+@import __ObjC;
 #endif
 
 #endif
@@ -302,6 +303,8 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 
 
 
+
+
 @class MNPosition;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionChangeListener>
@@ -313,9 +316,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionVisibilityListener>
 - (void)setPositionVisibilityWithVisible:(BOOL)visible;
 @end
-
-
-
 
 
 
@@ -334,6 +334,18 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
+
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
+- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
+@end
+
+
+@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <ValidBlueDotCallbackListener>
+- (void)onValidBlueDotStateChangeWithError:(EnumValidBlueDotError)error;
+@end
+
+
 @class MNRouteResponse;
 
 @interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <RoutingRequestCallback>
@@ -342,10 +354,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 @end
 
 
-
-@interface MapstedMapUiInternalViewController (SWIFT_EXTENSION(MapstedMapUi)) <PositionAnimationListener>
-- (void)onPositionAnimationWithPosition:(MNPosition * _Nonnull)position animationBegins:(BOOL)animationBegins;
-@end
 
 
 
@@ -364,8 +372,6 @@ SWIFT_CLASS("_TtC12MapstedMapUi34MapstedMapUiInternalViewController")
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 

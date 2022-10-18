@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		3GFso1BtiQCejxsbPT7kYbDi66U=
+		mtpfR1kfUdEbDMHhpxRgOvkABnI=
 		</data>
 		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		J48D8XPZyd48v5H98T5eTyCNZCE=
+		Fprf34MB3se7gnGnRDSPvfdW/5Y=
 		</data>
 		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<data>
@@ -74,7 +74,11 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Zsj7L8FMnUd9PKm4WiMrd9tGRYw=
+		/XuTMV1qQIqqDQJ7DcgUMLIVMmQ=
+		</data>
+		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		R4QyuRPwoT1SZm/BBj/oGCUP7ok=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +90,15 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rFBMymsypveAM8/q9XmXNqAnTrE=
+		iYaZRGb1KeWx1b0bcN8TTEmJoHU=
+		</data>
+		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		1TTMqylcQqfE5AfFASE/JdE2AWk=
+		</data>
+		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		Jps+Z4Oa8Nk3HDAxoqcTrE9UWE8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,7 +154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUCY065I9JqxVvWb34R8McSOxI6t0thFq7EcxZR+8ik=
+			XLNilaoA5KC0Fx1ZGWqn0RgpCpkk9OxJ8HIF6mBjbZ4=
 			</data>
 		</dict>
 		<key>EntityChooser.storyboardc/EntityChooser.nib</key>
@@ -247,7 +259,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LSjNK/5+ioIg+8upmYPwly0cH/LBs9feu3qo097f66c=
+			FN1osRDOmswEP/ghJnv+07TZAwtCQB2r10neLMx8IB4=
+			</data>
+		</dict>
+		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LnZV2+/NJawRsTkEI879EvXZPoDyO7RlnE20/y06xVk=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -268,7 +287,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+maynA2kxW3ZoH+czCGot0O8dnNFl3O3cbvJ602/6r8=
+			62Jkpqbh0KHbFxQpEhb5pi6tEJchvfnDZN3fk22h63M=
+			</data>
+		</dict>
+		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v7DNVH8kEXau7yCnkChYPOvNcY05FNND68c1qO6g7RU=
+			</data>
+		</dict>
+		<key>Modules/MapstedComponentsUI.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mkURRVy2BpBjag7fN9uKuWuInGmzH/lbUr1kvLbQhcg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
