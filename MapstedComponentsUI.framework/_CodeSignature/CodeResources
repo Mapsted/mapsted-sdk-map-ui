@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KuV8UUN5tDrbkTJ7wyjQLWKUWiY=
+		GxqmVx6zHT1z4SYFb7qcFTu0zjQ=
 		</data>
 		<key>Misc.storyboardc/ID_CATEGORYSELVC.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		zr3UGbb2SMdO/+g+B5TjlBrcdtk=
+		HsQRif3m+mxJKxIuZMuAnjVsS6w=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ez1cQGHj4pc4Ncck6VAI1/rYo20=
+		ovaGaU6P4B3b5N/4Vtn4b1ReguM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,6 +133,24 @@
 			<key>hash</key>
 			<data>
 			SHTIB66wnpIi5TynnErj9HbFy3E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en-CA.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cwepiAyPA76yQbmfoQicY7dcH3w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en-US.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cwepiAyPA76yQbmfoQicY7dcH3w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -301,7 +319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jizw+eJ7S30F1wQkymxtJhw2zJeQBoOO/rmvtM7jEMU=
+			FLnyne5zHGuNY4GYzNKRKWZWaKT659jGps7YMkq4z8s=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -322,7 +340,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2veWB7uQ139ft+pgKanDvGLRamt7fWjIX9aIgjGYO3I=
+			UlUi1B9I1QfhehXQPp4Zx+yErf7EjPL8gqBb8fDPbgA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -400,6 +418,24 @@
 			<key>hash2</key>
 			<data>
 			cxLEXb4kWmEOa6aqFdOr8Z6t+seXKwoiGdcIE87gmu0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en-CA.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UrJhTV1t9WwRubzFqKtiL7a4f9lOxXQO/+JJ5aTaIlI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en-US.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UrJhTV1t9WwRubzFqKtiL7a4f9lOxXQO/+JJ5aTaIlI=
 			</data>
 			<key>optional</key>
 			<true/>
