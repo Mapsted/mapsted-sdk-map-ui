@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TH7qJe4VzmdUltPmscFZf1jA8lo=
+		znQXT6y9806GeOL4AWtNqapbpAU=
 		</data>
 		<key>BuildingListTableViewCell.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/MapstedComponentsUI-Swift.h</key>
 		<data>
-		wmJzsr0obO0mV6ym2WEfWXvi2YI=
+		LMNE3/7Uw4XugpJhhkb787BNVTI=
 		</data>
 		<key>Headers/MapstedComponentsUI.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7qQegbUN6+4eLfMWu7KphTC6BKQ=
+		VvR3o/ZgvH/Rsa4KYswyLNb+zfA=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
@@ -114,15 +114,15 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		pYvd5wJJWttrJAU5U52KT6PxZjI=
+		GYZcBErEI2nLgbDUJ03ulapr0bI=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tAuZmh0eSWgm/rTw2DpuSMAiBBU=
+		gFjBaowaQWATqqtxox2G155zH/E=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JiA2kpokiCixLBlzGKLxD5i1z+8=
+		GbNtAm/cvWS8UsCtc9DVx4FWsF0=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		oI581Y7+0N4NAUeqcvbSEmR55lI=
+		jbNMf4zSky2Clip9UdJCSR9sV20=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dFKo0Oo8+penDEEAio0m++6neiQ=
+		gJOzH1JHs4pbI1iocWMygpupFmA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<data>
-		VgtsZ4GwbDYJ91BlHBnMZlR7ccs=
+		MnIVAa/6p8z3L/G+iTIrUxk6kG8=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -362,7 +362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ugSoUDveCfJM5iLplSyh6/mjarw8tXtRsDRW69x0Wj4=
+			iVKD8Jt3FH8vlqvEoFWh/239BPo1ZOXstggdCT7gABk=
 			</data>
 		</dict>
 		<key>BuildingListTableViewCell.nib</key>
@@ -481,7 +481,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnA3WzHC3p8ema9AJPShXKkpKPhkI/qTt23Ghw9NWj4=
+			p0mjrOY7Ea7Zb7AagoE3FknQpZz9qHN1AoFAi1k4kRA=
 			</data>
 		</dict>
 		<key>Headers/MapstedComponentsUI.h</key>
@@ -537,21 +537,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			09sOUvrILRghcAGxGKC8Ht1vWl7mTMiEmBY8fSo1gTQ=
+			QfKoP9jxTO3ozpwaZfizPBtIqcuGuPXHdaQmV3/eeE8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wG6pQDuISMGtJu7+OhScdEBKalsqL3sHMjX9BZ6dy54=
+			wNeKsJFLZ7l8iPeCT7HfNFjOOqZMrA+RueijX7z1Hik=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SpnEHt0o7ljWUaClUxCqqKGpD7abS93JucYExVJWpzw=
+			ZyJ+/xtvQRfKHgQ1Y5MhslVw9BkSDxp5yzGmRmGGqu8=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -565,14 +565,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaHtGryykgCyHpTk/4H2ckfcLIkKNitcihu0jDvNROs=
+			BahXLj9+2GCUUucAL38PccrPAMVxJQiRmm12sfOqV0o=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MdWBxfizU9TAO665NL92wPfDtXGycOcdzTsw52M2gfc=
+			/+gsmV+2sK3r0Rxefx2Jgul/dFhbXWi5iK4UUnWoBKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -600,7 +600,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dK2B/xTJQmqFi6y/tSFBBkYINm9if9Z+iN1yWkIywng=
+			CwNIs2XB1k5woPho9c+6hh0f2pb1rXcZG8EOpq1VlnU=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
