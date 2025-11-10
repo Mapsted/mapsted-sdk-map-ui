@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		znQXT6y9806GeOL4AWtNqapbpAU=
+		TH7qJe4VzmdUltPmscFZf1jA8lo=
 		</data>
 		<key>BuildingListTableViewCell.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VvR3o/ZgvH/Rsa4KYswyLNb+zfA=
+		TbOXgMWGx4sNmdJiLFa5r7PpC7Q=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
@@ -114,11 +114,11 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		GYZcBErEI2nLgbDUJ03ulapr0bI=
+		o2r+B6FsBic5c+9RTFFAbxqZaT4=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gFjBaowaQWATqqtxox2G155zH/E=
+		YQAyl6w8MuAXhx9uMxGdGbreBnk=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gJOzH1JHs4pbI1iocWMygpupFmA=
+		etFcSR2pGJZU+kpSwjdeNpvYEpQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<data>
-		MnIVAa/6p8z3L/G+iTIrUxk6kG8=
+		VgtsZ4GwbDYJ91BlHBnMZlR7ccs=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -362,7 +362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iVKD8Jt3FH8vlqvEoFWh/239BPo1ZOXstggdCT7gABk=
+			ugSoUDveCfJM5iLplSyh6/mjarw8tXtRsDRW69x0Wj4=
 			</data>
 		</dict>
 		<key>BuildingListTableViewCell.nib</key>
@@ -537,14 +537,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QfKoP9jxTO3ozpwaZfizPBtIqcuGuPXHdaQmV3/eeE8=
+			KiiSjvq8URQ+GGs8QlFbCPyzA7ofYhKylIgALpwwUrs=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wNeKsJFLZ7l8iPeCT7HfNFjOOqZMrA+RueijX7z1Hik=
+			d6vFsYyDCt7lKGJ2220vozPpmQkf1GuV1oOXGEmnBCM=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -572,7 +572,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+gsmV+2sK3r0Rxefx2Jgul/dFhbXWi5iK4UUnWoBKw=
+			DAwk3dsic8/D6h7bkBBCMsmMyNmivReNm4Xx9quPVLc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -600,7 +600,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CwNIs2XB1k5woPho9c+6hh0f2pb1rXcZG8EOpq1VlnU=
+			dK2B/xTJQmqFi6y/tSFBBkYINm9if9Z+iN1yWkIywng=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
