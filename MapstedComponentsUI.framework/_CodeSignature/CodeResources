@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		4YiT5lz4bXuqf5aWNe3p2NSLc7o=
+		TH7qJe4VzmdUltPmscFZf1jA8lo=
 		</data>
 		<key>BuildingListTableViewCell.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tqpOC6QrHNBBjvdiiV7YB9Y/oxE=
+		h/mMvAH5TL0wTasrhsq1dgPCxAI=
 		</data>
 		<key>Login.storyboardc/Dvt-Ws-4Q0-view-qOJ-og-7TI.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		6VmDwuaSz4I5nitL9WOS/fPY9vk=
+		sAVQzCzvUvpJTm1e9Xe4cw8FcsI=
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		knCl6U0qwQJpLOPCd+6/tIl3WKI=
+		q+/zsXihZhWzX6MJtUb0Vl/f6kQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>NewsFeedsViewController.nib/runtime.nib</key>
 		<data>
-		PC4D3aJnbRQvvfwhZJy+/ugg1xE=
+		hvoyhOVH7SXETIWNCs2cNJhHjrI=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -362,7 +362,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G8aFrG+q2LUorH0LwcA10Uq/DqPr2gb8nL6iK634oSM=
+			ugSoUDveCfJM5iLplSyh6/mjarw8tXtRsDRW69x0Wj4=
 			</data>
 		</dict>
 		<key>BuildingListTableViewCell.nib</key>
@@ -537,7 +537,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			poa/RNAdAAojX5FNaRMQY3wKzBttk9KB9WTwBmfKGLo=
+			0Dqqh3yETIdFIgA80Rbe54k+67aea4rXnQIYEgS5K5Y=
 			</data>
 		</dict>
 		<key>Modules/MapstedComponentsUI.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -572,7 +572,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UwKH4Pgy+01D/Fc4Lc8boItr3gKft8tcTIv1yfydwls=
+			GRsvB+tOu+hK3R9aTQLbYlbwQy6SFljYJqxvQLwGwMQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -600,7 +600,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			isV1LruJ2Dc6uUcr63BQM5o+rUVNJNs+7AjCcIban7o=
+			7yOZQhoPkDiLV6FJ9nZIuhdz3L6Z2sBSWhCA8CAoJag=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
